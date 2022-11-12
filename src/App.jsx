@@ -1,6 +1,4 @@
-import { Profile } from "./components/Profile";
-import { Main } from "./components/Main";
-import { Footer } from "./components/Footer";
+import { Profile, Main, Footer } from './components/Index'
 
 function App() {
   return (

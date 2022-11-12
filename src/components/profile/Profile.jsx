@@ -1,7 +1,8 @@
 import React from "react";
 import ScrollReveal from "scrollreveal";
+import './profile.css'
 
-export class Profile extends React.Component {
+export default class Profile extends React.Component {
   
   constructor(props) {
     super(props);

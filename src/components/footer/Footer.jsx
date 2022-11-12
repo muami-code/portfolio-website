@@ -1,5 +1,6 @@
+import './footer.css'
 
-export function Footer() {
+export default function Footer() {
     return (
         <footer className="footer container">
             <span className="footer__copy">

@@ -1,6 +1,7 @@
 import React from "react";
+import './main.css'
 
-export class Main extends React.Component {
+export default class Main extends React.Component {
   constructor(props) {
     super(props);
     this.dataContent = this.dataContent.bind(this);
