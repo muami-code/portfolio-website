@@ -98,7 +98,7 @@ export default class Main extends React.Component {
                       Notes App -
                       <a
                         target="_blank"
-                        href="https://notes-app-mongodb-muami.herokuapp.com/"
+                        href="https://notes-personal-app.herokuapp.com/"
                         className="projects__button button button__small"
                       >
                         <i className="ri-link"></i>
