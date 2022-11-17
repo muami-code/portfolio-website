@@ -130,10 +130,6 @@
   line-height: 18px;
 }
 
-.skills__level {
-  font-size: var(--smaller-font-size);
-}
-
 /* Hide and show projects & skills */
 .filters [data-content] {
   display: none;
