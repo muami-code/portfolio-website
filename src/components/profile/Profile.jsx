@@ -97,7 +97,6 @@ export default class Profile extends React.Component {
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
-        <br />
         <div className="profile__buttons">
           <a download="" href="pdf/CV-Sebastian.pdf" className="button">
             Download CV <i className="ri-download-line"></i>

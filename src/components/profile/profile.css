@@ -57,6 +57,7 @@
 .profile__social {
   display: flex;
   justify-content: center;
+  padding: 2rem;
   z-index: 1;
 }
 
@@ -71,34 +72,20 @@
   position: relative;
 }
 
-.profile__social .fa-github {
-  color: var(--Color);
+.profile__social .fab {
+  color: var(--title-color);
 }
 
 .profile__social .fa-github:hover {
   color: var(--first-color);
-  transform: var(--Transform);
-  transition: var(--Transition);
-}
-
-.profile__social .fa-linkedin {
-  color: var(--Color);
+  transform: scale(1.2);
+  transition: 0.1s ease-in;
 }
 
 .profile__social .fa-linkedin:hover {
-  color: var(--LinkedIn);
-  transform: var(--Transform);
-  transition: var(--Transition);
-}
-
-:root {
-  --Color: #000;
-  /* --Instagram: #e4405f; */
-  --LinkedIn: #0e76a8;
-  /* --Back: #55acee; */
-  --Link: #fdfdfd;
-  --Transform: scale(1.4);
-  --Transition: 0.2s ease-in-out;
+  color: #0E76A8;
+  transform: scale(1.2);
+  transition: 0.1s ease-in;
 }
 
 .profile__info {
